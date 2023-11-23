@@ -1,3 +1,4 @@
+# version:1.3.4
 FROM python:3-bullseye as git_clone
 
 RUN apt-get update && apt-get install --yes --no-install-recommends git curl
